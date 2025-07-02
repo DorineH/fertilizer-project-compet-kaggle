@@ -8,6 +8,8 @@ Ce projet a été mené par Lisa AU et Dorine HENRY, étudiante en Master Strat�
 ### Environnement et langage
 Nous avons choisi le langage Python pour sont large écosystème. Les bibliothèques spécialisées tèl que que : pandas, scikit-lear, LightGBM/CatBoost, matplotlib/seaborn, nous on permis d'explorer et de manipuler les données, decter les anomalies, de comparer différent algorithmes, d'exploiter des modèles et de visualiser les corrélations.
 
+![Graphique en baton des la donnée](/repartition_engrais.png "Analyse des données")
+
 ### Algorithme testé et utilisé
 Nous avons évalué plusieurs familles de modèles pour maximiser notre MAP@3 :
 - Régression logistique multiclass (scikit-learn).
