@@ -19,11 +19,11 @@ Nous avons retenu LightGBM car nous avons obtenue les meilleur perofmance, une m
 ### Approche générale
 Notre pipeline s’articule en cinq grandes étapes :
 
-Exploration des données (EDA) – prise en main rapide du dataset via shape, info(), describe(), visualisations de distributions et matrices de corrélation. Grâce à matplotlib.pyplot et seaborn.
-Pré-traitement – encodage des variables catégorielles (LabelEncoder pour les cibles et les colonnes de type sol et culture), suppression des colonnes non-utiles (identifiants, noms), et gestion des valeurs manquantes.
-Feature engineering – création d’agrégats météo (moyenne et nombre de jours chauds sur 7 jours) et de variables d’interaction entre le type de sol et la culture.
-Modélisation et validation – mise en place d’une validation croisée stratifiée (StratifiedKFold à 5 plis) avec calcul d’un score MAP@3 custom à chaque itération.
-Soumission – agrégation des prédictions out-of-fold, extraction du top-3 et génération du fichier submission.csv, puis envoi via l’API Kaggle.
+- Exploration des données (EDA): prise en main rapide du dataset via shape, info(), describe(), visualisations de distributions et matrices de corrélation. Grâce à matplotlib.pyplot et seaborn.
+- Pré-traitement: encodage des variables catégorielles (LabelEncoder pour les cibles et les colonnes de type sol et culture), suppression des colonnes non-utiles (identifiants, noms), et gestion des valeurs manquantes.
+- Feature engineering: création d’agrégats météo (moyenne et nombre de jours chauds sur 7 jours) et de variables d’interaction entre le type de sol et la culture.
+- Modélisation et validation: mise en place d’une validation croisée stratifiée (StratifiedKFold à 5 plis) avec calcul d’un score MAP@3 custom à chaque itération.
+- Soumission: agrégation des prédictions out-of-fold, extraction du top-3 et génération du fichier submission.csv, puis envoi via l’API Kaggle.
 
 ### Optimisation du code
 Pour accélérer l’entraînement et réduire la consommation de la mémoire, nous avons :
