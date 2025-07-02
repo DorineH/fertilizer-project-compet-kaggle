@@ -1,9 +1,11 @@
 # Compet Kaggle - Predicting Optimal Fertilizers
+
+**Auteur** : Lisa AU, Dorine HENRY
+**Classe** : M2TL
+**Nom de la Team sur kaggle** : DL
+
 ### Contexte du projet
 Nous avons participé à la compétition Kaggle “Playground Series S5E6” dont l’objectif était de prédire, pour chaque parcelle, les trois engrais les plus adaptés selon les conditions de culture, de sol et de météo. La performance était d'évaluée via la métrique MAP@3.
-
-### Équipe
-Ce projet a été mené par Lisa AU et Dorine HENRY, étudiante en Master Stratégie digital option tech lead dev.
 
 ### Graphique qui nous a permis de comprendre le projet et savoir ce qu'on devais faire.
 ![Graphique en baton des la donnée](/repartition_engrais.png "Analyse des données")
