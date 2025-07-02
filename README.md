@@ -1,3 +1,4 @@
+# Compet Kaggle - Predicting Optimal Fertilizers
 ### Contexte du projet
 Nous avons participé à la compétition Kaggle “Playground Series S5E6” dont l’objectif était de prédire, pour chaque parcelle, les trois engrais les plus adaptés selon les conditions de culture, de sol et de météo. La performance était d'évaluée via la métrique MAP@3.
 
