@@ -2,7 +2,7 @@
 Nous avons participé à la compétition Kaggle “Playground Series S5E6” dont l’objectif était de prédire, pour chaque parcelle, les trois engrais les plus adaptés selon les conditions de culture, de sol et de météo. La performance était d'évaluée via la métrique MAP@3.
 
 ### Équipe
-Ce projet a été mené par Lisa AU et Dorine HENRY, étudiante en Master Stratégie digital option.
+Ce projet a été mené par Lisa AU et Dorine HENRY, étudiante en Master Stratégie digital option tech lead dev.
 
 ### Environnement et langage
 Nous avons choisi le langage Python pour sont large écosystème. Les bibliothèques spécialisées tèl que que : pandas, scikit-lear, LightGBM/CatBoost, matplotlib/seaborn, nous on permis d'explorer et de manipuler les données, decter les anomalies, de comparer différent algorithmes, d'exploiter des modèles et de visualiser les corrélations.
